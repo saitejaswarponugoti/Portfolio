@@ -23,17 +23,17 @@ const greeting = {
   username: "Sai Tejaswar",
   title: "Hello, I'm Teja!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Spring Boot/ JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
+    "Java Full Stack Developer 🚀 having 3+ years of experience in building highly scalable, available and fault-tolerent Web applications with Spring Boot / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WTUzBQjYbTnMnSwfAJGdH6HdGfnUkwuj/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/SaiTejaswarDev",
+  github: "https://github.com/saitejaswarponugoti",
   linkedin: "https://www.linkedin.com/in/saitejaswar/",
   gmail: "saitejaswar.ponugoti@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -52,12 +52,14 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly available and scalable web applications leveraging AWS cloud services."
+      "⚡ Develop highly available, scalable, fault-tolerant API's and microservices leveraging Spring Boot, Spring Cloud"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop resonsive web applications using Reactjs, Redux, Material-UI, Bootstrap"
     )
+    // emoji(
+    //   "⚡ Integration of third party services such as AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -136,7 +138,7 @@ const educationInfo = {
       duration: "January 2023 - December 2024",
       desc: "Completed an advanced degree in Computer Science, working on exciting projects that explored innovative technologies and tackled challenges with creative solutions.",
       descBullets: [
-        "Completed coursework in Cloud Computing, Big Data, Advanced Algorithms etc., "
+        "Completed coursework in Cloud Computing, Big Data, Advanced Algorithms, Data Structures and Distributed Computing."
       ]
     },
     {
@@ -154,7 +156,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend",
@@ -183,14 +185,14 @@ const workExperiences = {
       company: "Missouri S&T",
       companylogo: require("./assets/images/Missouri-S&TLogo.png"),
       date: "August 2023 – December 2024",
-      desc: "Designed and developed a Full-stack react web application for the Facilities departtment to generate custom compliance reports."
+      desc: "Designed and developed a Full-stack react web application for the Facilities departtment to generate custom compliance reports. Massively resucing the total time to do auditing and compliance checks."
     },
     {
       role: "Software Engineer, Associate",
       company: "Infor",
       companylogo: require("./assets/images/infor.png"),
       date: "October 2020 – January 2023",
-      desc: "Developed Feature enhancements for multiple customers on different business use cases in the FSM application."
+      desc: "Developed feature rich RESTful API's and microservices using Spring Boot, Spring Cloud. Handled the entire development lifecycle from design, development, testing, deployment and maintenance."
     }
   ]
 };
@@ -233,7 +235,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -259,26 +261,27 @@ const achievementSection = {
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
+        // }
         // {
         //   name: "Google Code-in Blog",
         //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         // }
       ]
+    },
+    {
+      title: "Docker Foundations Professional Certificate",
+      subtitle:
+        "Delved into the inner workings of containarization through Docker, which powers the modern software development.",
+      // image: require("./assets/images/images.png"),
+      image: require("./assets/images/docker-mark-blue.png"),
+      imageAlt: "Docker Logo",
+      footerLink: [
+        {
+          name: "Certfication",
+          url: "https://www.linkedin.com/learning/certificates/0df4aede8f15511ca0ab21d7a94e6d8c7c708d462590dd362bb17be379b62076?trk=share_certificate"
+        }
+      ]
     }
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
 
     // {
     //   title: "PWA Web App Developer",
