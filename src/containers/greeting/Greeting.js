@@ -43,7 +43,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     // href={require("./resume.pdf")}
-                    href={"https://drive.google.com/file/d/1WTUzBQjYbTnMnSwfAJGdH6HdGfnUkwuj/view?usp=drive_link"}
+                    href={"https://drive.google.com/file/d/1XDAW8kWJPYA4hMCKuGFQa0YGc8G4kofT/view?usp=sharing"}
                     download="Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
