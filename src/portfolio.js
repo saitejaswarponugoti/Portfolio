@@ -281,21 +281,33 @@ const achievementSection = {
           url: "https://www.linkedin.com/learning/certificates/0df4aede8f15511ca0ab21d7a94e6d8c7c708d462590dd362bb17be379b62076?trk=share_certificate"
         }
       ]
+    },
+    {
+      title: "Kubernetes Essentials",
+      subtitle: "Mastered the art of container orchestration with Kubernetes.",
+      image: require("./assets/images/kubernetes-logo.webp"),
+      imageAlt: "Kubernetes Logo",
+      footerLink: [
+        {name: "Certification", url: "https://learn.kodekloud.com/certificate/038ba6ba-74db-4317-9660-f9ed80263a61"}
+        // {
+        //   name: "Certification",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Linux Essentials",
+      subtitle: "Linux Essentials certification demonstrates the candidate's foundational skills in Linux and Open Source Software.",
+      image: require("./assets/images/linux.webp"),
+      imageAlt: "Linux Logo",
+      footerLink: [
+        {name: "Certification", url: "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/f40a8108-ebb7-4088-b1bb-08bca257eb5a-saitejaswar-ponugoti-818a529d-e2da-4317-b59a-3e8309cda303-certificate.pdf"}
+        // {
+        //   name: "Certification",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
     }
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
